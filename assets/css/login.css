@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Sora:wght@100..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: var(--base-font);
+}
+
+:root {
+    --base-font: "Sora", sans-serif;
+}
+
+body {    
+    background-color: #1b1b1b !important;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-card {    
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 14px;
+
+    h3 {
+        padding: 10px 0 0 0;
+    }
+}
+
+.logo {
+    width: 350px !important;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: #2e2e2e;
+}
+
+label {
+    font-weight: 200;
+}
